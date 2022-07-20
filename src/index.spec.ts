@@ -27,5 +27,5 @@ test("player1 win with a pair", () => {
 });
 
 test("player1 lose with a smaller pair", () => {
-  expect(pokerHand("2H 2D 4H 5H 6S", "3H 3H 4H 6H AS")).toBeFalsy();
+  expect(pokerHand("2H 2D 4H 5H 6S", "3H 3H 4H 6H AS")).toBe();
 });
